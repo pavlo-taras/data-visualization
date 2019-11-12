@@ -1,0 +1,55 @@
+body {
+   font-family: "Ubuntu Mono";
+}
+
+svg {
+   background-color: #F3F7F7;
+}
+
+.title {
+   font-size: 30px;
+   font-weight: bold;
+}
+
+.subTitle {
+   stroke:  #5D646F;
+   font-size: 18px;
+}
+
+.xLabel {
+   stroke:  #5D646F;
+   font-size: 15px;
+   stroke-width: 0.5;
+}
+
+.population-estimate {
+   stroke: #3288bd;
+   stroke-width: 0.5;
+}
+
+.population-projection {
+   stroke: #d53e4f;
+   stroke-width: 0.5;
+}
+
+.solid{
+   stroke:solid;
+ }
+ 
+ .dashed{
+   stroke-dasharray: 3; 
+ }
+
+ .grid, .y.axis .tick line, .x.axis .tick line {
+   stroke:  #5D646F;
+   stroke-width: 1;
+   stroke-dasharray: 1, 2;
+ }
+
+.domain {
+   stroke: #fff;
+}
+
+.tick {
+   font-size: 13px;
+}
